@@ -1,0 +1,11 @@
+{
+  "name": "gostack-gobarber",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/MauricioLimaJR/gostack-gobarber.git",
+  "author": "Maurício Lima <mauricio.lima@zeropay.io>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
