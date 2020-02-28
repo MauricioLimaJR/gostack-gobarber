@@ -1,12 +1,16 @@
 import express from 'express'
 import routes from './routes'
 
+/**
+ * Creates a server instace from express
+ * Middlewares and routes are attached by class methods
+ */
 class App {
-  constructor () {
+  constructor() {
     this.server = express()
 
-    this.middlewares();
-    this.routes();
+    this.middlewares()
+    this.routes()
   }
 
   middlewares() {
