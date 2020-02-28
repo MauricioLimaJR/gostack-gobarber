@@ -1,6 +1,8 @@
 import express from 'express'
 import routes from './routes'
 
+import './database'
+
 /**
  * Creates a server instace from express
  * Middlewares and routes are attached by class methods
